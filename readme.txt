@@ -15,3 +15,4 @@ git status
 git add readme.txt
 git commit -m "Created readme"
 git diff
+git add .
