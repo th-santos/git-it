@@ -12,3 +12,6 @@ git init
 git status
 
 3.
+git add readme.txt
+git commit -m "Created readme"
+git diff
