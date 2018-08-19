@@ -36,8 +36,32 @@ git remote add <REMOTE_NAME: upstream> <URL>
 git remote set-url <REMOTE_NAME: upstream> <URL>
 
 7.
+git branch <BRANCH_NAME: add-th-santos>
+git checkout <BRANCH_NAME: add-th-santos>
+git add -A
+git branch -m <NEW_BRANCH_NAME>
+git checkout -b <BRANCH_NAME: add-th-santos>
+git branch
 
+8.
+
+9.
+git fetch --dry-run
+
+10.
+
+11.
+git merge <BRANCH_NAME: add-th-santos>
+git branch -d <BRANCH_NAME: add-th-santos>
+git push <REMOTE_NAME: origin> --delete <BRANCHNAME: add-th-santos>
+git pull <REMOTE_NAME: upstream> <BRANCH_NAME: gh-pages>
 
 * useful commands
 git log
 git reset --hard
+
+* tips
+git add -A  |   stages All
+git add .   |   stages new and modified, without deleted
+git add -u  |   stages modified and deleted, without new
+git add -A  |   is equivalent to git add .; git add -u
